@@ -1,0 +1,9 @@
+[core]
+	editor = code --wait
+[user]
+	name = Harsh Vardhan Rana
+	email = ranaharshvardhan52@gmail.com
+[color]
+	ui = auto
+[merge]
+	conflictstyle = diff3
