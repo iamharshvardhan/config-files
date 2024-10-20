@@ -45,3 +45,8 @@ export PS1="${yellow}${reset} ${red}\u${reset}${purple} ${reset}${green}\W${rese
 
 # Display the current prompt
 export PS1="${PS1}${yellow}${reset} "
+
+if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+fi
+
