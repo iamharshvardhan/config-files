@@ -1,0 +1,25 @@
+// windows 11, python, bash
+
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run code_file.py with input.txt",
+        "type": "shell",
+        "command": "bash",
+        "args": [
+          "-c",
+          "python \"${workspaceFolder}/code_file.py\" < \"${workspaceFolder}/input.txt\" > \"${workspaceFolder}/output.txt\""
+        ],
+        "presentation": {
+          "reveal": "always"
+        },
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
+  
